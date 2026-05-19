@@ -1,0 +1,17 @@
+/* Toast customization */
+.Toastify__toast {
+  border-radius: 12px;
+  font-family: 'Inter', sans-serif;
+}
+
+.Toastify__toast--success {
+  background: linear-gradient(135deg, #00b09b, #96c93d);
+}
+
+.Toastify__toast--error {
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+}
+
+.Toastify__toast--info {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}

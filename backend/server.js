@@ -27,12 +27,14 @@ console.log('===================================');
 // Create Express app
 const app = express();
 
-// ✅ CORS setup - Vercel frontend ke liye updated
+// ✅ CORS setup - Updated with all frontend URLs
 const allowedOrigins = [
   'http://localhost:3000',
   'http://localhost:5173',
-  'https://your-frontend.vercel.app',
+  'https://studybuddy-frontend-nine.vercel.app',
+  'https://studybuddy-frontend-zeta.vercel.app',
   'https://studybuddy-ai.vercel.app',
+  'https://studybuddy-ai-nine.vercel.app',
   process.env.FRONTEND_URL
 ].filter(Boolean);
 
